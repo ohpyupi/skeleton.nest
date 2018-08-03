@@ -1,0 +1,21 @@
+{
+  "extends": ["airbnb", "prettier", "tslint-eslint-rules"],
+	"parser": "babel-eslint",
+  "settings": {},
+	"env": {
+		"browser": true,
+		"node": true,
+		"jest/globals": true
+	},
+	"plugins": [
+		"jest"
+	],
+  "rules": {
+		"no-console": "off"
+  },
+  "globals": {
+    "Feature": true,
+    "Scenario": true,
+    "I": true
+  }
+}

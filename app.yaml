@@ -1,0 +1,14 @@
+env: flex
+runtime: custom
+
+env_variables:
+  PROJECT_ID: 'GCP-PROJECT-ID'
+  NODE_ENV: development
+
+resources:
+  cpu: 1
+  memory_gb: 2.3
+  volumes:
+  - name: ramdisk1
+    volume_type: tmpfs
+    size_gb: 0.5
